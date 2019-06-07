@@ -259,7 +259,7 @@ def plot_boxes(img, boxes, savename=None, class_names=None):
         if len(box) >= 7 and class_names:
             cls_conf = box[5]
             cls_id = box[6]
-            print('%s: %f' % (class_names[cls_id], cls_conf))
+            #print('%s: %f' % (class_names[cls_id], cls_conf))
             classes = len(class_names)
             offset = cls_id * 123457 % classes
             red   = get_color(2, offset, classes)
@@ -269,7 +269,7 @@ def plot_boxes(img, boxes, savename=None, class_names=None):
             draw.text((x1, y1), class_names[cls_id], fill=rgb)
         draw.rectangle([x1, y1, x2, y2], outline = rgb)
     if savename:
-        print("save plot results to %s" % savename)
+        #print("save plot results to %s" % savename)
         img.save(savename)
     return img
 
@@ -311,6 +311,7 @@ def image2torch(img):
     return img
 
 def do_detect(model, img, conf_thresh, nms_thresh, use_cuda=1):
+
     model.eval()
     t0 = time.time()
 
