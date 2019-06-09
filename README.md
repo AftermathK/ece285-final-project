@@ -16,4 +16,3 @@ $ pip install --user package
 - yolo jupyter notebook -- TODO
 - faster R-CNN jupyter notebook -- TODO
 - RetinaNet jupyter notebook -- TODO
-- Cascade R-CNN jupyter notebook -- TODO
