@@ -13,8 +13,8 @@ $ pip install --user package
 - Drive Link: Sent via email. 
 
 1. Our Entire Pipeline:  
-    1. git clone this repositary into a folder.
-    2. Download weights for Yolo from this [link](https://pjreddie.com/media/files/yolov3.weights).
+    1. git clone this repositary into a folder and cd into it.
+    2. Download weights for Yolo from this [link](https://pjreddie.com/media/files/yolov3.weights) and save it in the current directory.
     3. Download the model weights for the Resnet18 classifier from the drive link. 
     3. Download the images for Vehicle classificaier from the drive link and place it in the repositary's main directory. 
     4. Run demo_final.ipynb
