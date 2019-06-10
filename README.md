@@ -10,7 +10,7 @@ Object Detection in the Autonomous Driving Scenario is a project intended to exp
 
 ### Requirements
 Install packages:
-$ pip install --user -r requirements.txt
+$ `pip install --user -r requirements.txt`
 
 ### Code organization
 - [Github Repository](https://github.com/AftermathK/ece285-final-project)
@@ -33,10 +33,10 @@ $ pip install --user -r requirements.txt
     1. Follow instructions in the given readme.
 
 4. YOLO3
-    1. Run the yolo3.ipynb Jupyter notebook in the `yolo` directory,  This Jupyter notebook assumes that the weights file (yolov3.weights) has been downloaded with the `yolo` directory and that the sample videos from our dataset have been downloading into the `yolo` directory.
+    1. Run the yolo3.ipynb Jupyter notebook in the `yolo3` directory,  This Jupyter notebook assumes that the weights file (yolov3.weights) has been downloaded with the `yolo3` directory and that the sample videos from our dataset have been downloading into the `yolo3` directory.
     2. Download the videos `camera_1.mp4, camera_2.mp4, camera_5.mp4 and camera_6.mp4` from the team drive. These videos are located under Camera-YOLO3/videos (the total size is approximately 2.4GB).
     3. Download the weights provided by Darknet: [link](https://pjreddie.com/media/files/yolov3.weights)
-    4. Run the Jupyter notebook's first two cells. Inference time for YOLO on all four of the videos is about 25 minutes. The results will be saved in separate directories on the current directory. The results obtained from this detector are also available on the team drive under `YOLO3/ClassificationResults`
+    4. Run the Jupyter notebook's first two cells. Inference time for YOLO on all four of the videos is about 25 minutes on a Titan Xp GPU. The results will be saved in separate directories on the current directory. The results obtained from this detector are also available on the team drive under `YOLO3/ClassificationResults`
 
 
 5. Experiments folder:
