@@ -6,7 +6,7 @@ Object Detection in the Autonomous Driving Scenario is a project intended to exp
 
 ### Requirements
 Install packages:
-$ pip install --user requirements.txt 
+$ pip install --user -r requirements.txt 
 
 ### Code organization
 - [Github Repository](https://github.com/AftermathK/ece285-final-project) 
