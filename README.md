@@ -11,8 +11,18 @@ $ pip install --user package
 ### Code organization
 - [Github Repository](https://github.com/AftermathK/ece285-final-project) 
 - TODO: Make public before submission
+- Drive Link: Sent via email. 
 
-- demo.ipynb -- TODO (sample runs from each notebook) 
-- yolo jupyter notebook -- TODO
-- faster R-CNN jupyter notebook -- TODO
-- RetinaNet jupyter notebook -- TODO
+1. Our Entire Pipeline:
+  1. git clone this repositary into a folder.
+  2. Download weights for Yolo from this [link](https://pjreddie.com/media/files/yolov3.weights).
+  3. Download the model weights for the Resnet18 classifier from the drive link. 
+  3. Download the images for Vehicle classificaier from the drive link and place it in the repositary's main directory. 
+  4. Run demo_final.ipynb
+  
+2. Faster R-CNN:
+  1. cd Faster R-CNN
+  2. Follow instructions given in readme file. 
+  
+3. RetinaNet
+  1. Follow instructions in the given readme.
