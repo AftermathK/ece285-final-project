@@ -16,7 +16,7 @@ $ pip install --user -r requirements.txt
 - [Github Repository](https://github.com/AftermathK/ece285-final-project)
 - Drive Link: Sent via email.
 
-1. Our Entire Pipeline:
+1. Our Entire Pipeline (DEMO):
     1. git clone https://github.com/AftermathK/ece285-final-project.git
     2. cd ece285-final-project
     2. Download weights for Yolo from this [link](https://pjreddie.com/media/files/yolov3.weights) and save it in the current directory.
