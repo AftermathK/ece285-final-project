@@ -19,9 +19,9 @@ $ pip install --user -r requirements.txt
 1. Our Entire Pipeline (DEMO):
     1. git clone https://github.com/AftermathK/ece285-final-project.git
     2. cd ece285-final-project
-    2. Download weights for Yolo from this [link](https://pjreddie.com/media/files/yolov3.weights) and save it in the current directory.
+    2. Download weights for YOLO from this [link](https://pjreddie.com/media/files/yolov3.weights) and save it in the current directory.
     3. Download the model weights for the Resnet18 classifier from the drive link.
-    3. Download the images for Vehicle classificaier from the drive link and place it in the repositary's main directory.
+    3. Download the images for Vehicle classifier from the Google drive link and place it in the repositary's main directory (Extract `images.zip`)
     4. Run demo_final.ipynb
 
 2. Faster R-CNN: (demo file)
